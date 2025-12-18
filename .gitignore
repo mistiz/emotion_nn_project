@@ -1,0 +1,18 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Logs and generated files
+emotion_log.txt
+saved_faces/
+
+# Datasets (FER2013 is too large)
+dataset/
+*.csv
+
+# Audio/video recordings
+*.wav
+*.mp4
