@@ -191,6 +191,62 @@ A small curated dataset for vocal emotion (optional)
 
 ⚠️ Datasets are not included due to size.
 
+🖥️ System Requirements
+To run the Multimodal Emotion Detection System smoothly, your machine should meet the following requirements:
+
+✅ Operating System
+Windows 10 or Windows 11 (recommended)
+
+Linux and macOS supported with minor adjustments (no .bat launcher)
+
+✅ Hardware
+CPU: Intel i5 / Ryzen 5 or better
+
+RAM: Minimum 8 GB (16 GB recommended for Whisper)
+
+GPU (Optional):
+
+NVIDIA GPU with CUDA support improves CNN + Whisper performance
+
+CPU‑only mode works but may be slower
+
+Webcam: Any USB or built‑in webcam
+
+Microphone: Built‑in or external microphone
+
+✅ Software
+Python 3.8 – 3.11
+
+pip (latest version recommended)
+
+Git (for cloning the repository)
+
+Optional: GitHub Desktop for easier version control
+
+✅ Python Dependencies
+Installed automatically via:
+
+Code
+pip install -r requirements.txt
+Includes:
+
+TensorFlow / Keras
+
+OpenCV
+
+NumPy / SciPy
+
+Whisper
+
+SoundDevice / PyAudio (depending on your setup)
+
+Other utility libraries
+
+✅ Disk Space
+~500 MB for models, logs, and saved images
+
+Additional space if storing many face crops
+
 🚀 Future Improvements
 Transformer‑based facial emotion models
 
